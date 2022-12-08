@@ -1,0 +1,128 @@
+
+.main-container {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    color: white;
+  }
+  
+  .left-tab{
+    width: 30%;
+    background-color: #04252e;
+  }
+  
+  .right-tab{
+    width: 70%;
+    background-color: #747b81;
+    color: #01111b;
+  }
+  
+  .control{
+    text-align: center;
+  }
+  
+  .top-tab{
+    background: rgb(193, 213, 253);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btm-tab{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+  }
+  
+  .form-container{
+    position: relative;
+    margin: 5em auto;
+    max-width: 350px;
+    background: #01111b;
+    min-height: 400px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  h1{
+    font-size: 32px;
+  }
+  
+  form{
+    margin-top: 50px;
+  }
+  
+  input{
+    outline: none;
+    border-radius: 5px;
+  }
+  #user{
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+  }
+  
+  #email,
+  #pass{
+    padding: 12px;
+    width: 93%;
+    margin-top: 10px;
+    border: none;
+  }
+  .btn{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #61dafb;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .fetch-user{
+    margin-top: 30px;
+    padding:  8px 25px;
+    cursor: pointer;
+  }
+  
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+  }
+  
+  .card{
+    margin-top: 20px;
+    background-color: aliceblue ;
+    width: 280px;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #2d4ad8b4;
+    align-items: center;
+  }
+  
+  .right-tab button{
+    background-color: #61dafb;
+    border: none;  
+    border-radius: 5px;
+  }
+  
+  .image{
+    width: 90px;
+    height: 90px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-right: 12px;
+  }
